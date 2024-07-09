@@ -1,0 +1,19 @@
+
+.btn {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-weight: bold;
+    color: var(--white-antares);
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    padding: 0.5rem 2rem;
+    transition: 0.8s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--red-antares);
+    border: 1px solid var(--red-antares);
+    transition: 0.8s;
+}

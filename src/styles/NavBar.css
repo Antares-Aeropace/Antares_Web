@@ -1,0 +1,46 @@
+
+.NavBar {
+    background-color: var(--black-antares);
+    color: var(--white-antares);
+    margin: 0;
+    height: 4rem;
+    z-index: 1;
+    position: relative;
+}
+
+.NavBar h1, h2, p, a{
+    margin: 0;
+}
+
+.Nav_layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.3rem;
+}
+
+.Options {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.Options a {
+    border-bottom: 4px solid transparent;
+    transition: 0.5s;
+}
+
+.Options a:hover {
+    border-bottom: 4px solid var(--red-antares);
+    transition: 0.5s;
+}
+
+.Logo {
+    max-width: 13rem;
+    align-self: center;
+    display: flex;
+}
+
+.Logo img {
+    max-width: 13rem;
+}
