@@ -1,4 +1,4 @@
-import "../styles/Button.css"
+import "../styles/components/Button.css"
 
 const Button = ({text}:{text: String}) => {
     return (

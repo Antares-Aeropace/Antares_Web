@@ -1,0 +1,29 @@
+
+
+.Section_left {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    z-index: 1;
+    color: var(--white-antares);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    margin-top: -5rem;
+    font-size: 2rem;
+}
+
+.Section_rigth {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    z-index: 1;
+    color: var(--white-antares);
+    display: grid;
+    grid-template-columns: 0.5fr 2.5fr;
+    align-items: center;
+    text-align: right;
+    margin-top: -5rem;
+    font-size: 2rem;
+}
+

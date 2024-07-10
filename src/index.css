@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 :root {
-    --bg-color: #282828;
+    --bg-color: #232222;
     --red-antares: #911010;
     --black-antares: #0B0B0B;
     --white-antares: #E1E1E1;
@@ -12,8 +12,10 @@
 }
 
 html {
-    background-color: var(--bg-color);
+    background-color: var(--black-antares);
     font-family: var(--Space);
+    scroll-behavior: smooth;
+    color: var(--white-antares);
 }
 
 body {

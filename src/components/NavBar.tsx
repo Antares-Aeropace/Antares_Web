@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import "../styles/NavBar.css"
+import "../styles/components/NavBar.css"
 import Logo from "../assets/Antares_logo.png"
 
 const NavBar = () => {
@@ -11,9 +11,9 @@ const NavBar = () => {
                 </Link>
                 <div className="Options">
                     <Link to={"Nosotros"}>Nosotros</Link>
+                    <Link to={"Iniciativas"}>Antares Aerospace</Link>
                     <Link to={"Iniciativas"}>Antares ED</Link>
-                    <Link to={"Servicios"}>Servicios</Link>
-                    <Link to={"Tecnologia"}>Tecnologia</Link>
+                    <Link to={"Antares Tech"}>Antares Tech</Link>
 
                 </div>
                 <div className="Options">
