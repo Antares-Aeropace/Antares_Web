@@ -1,14 +1,13 @@
 import Button from "../../components/Button"
 import NavBar from "../../components/NavBar"
-import "../../styles/Hero.css"
+import Section from "../../components/Section"
 
 const Home_Hero = () => {
     return (
         <header className="Hero">
             <NavBar />
             <div className="shadow-box hero-box"></div>
-            <div className="hero-content container">
-                <div>
+            <Section side={false}>
                     <h1>
                         !Impulsando el sector 
                         espacial en LATAM¡
@@ -19,9 +18,7 @@ const Home_Hero = () => {
                         pro de un autentico sector espacial en México
                     </p>
                     <Button text={"Sobre nosotros"}/>
-                </div>
-                <div></div>
-            </div>
+            </Section>
         </header>
     )
 }

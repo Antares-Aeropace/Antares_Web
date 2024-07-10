@@ -10,6 +10,10 @@ function App() {
     {
       path: "/",
       element: <Home />
+    },
+    {
+      path: "Nosotros",
+      element: (<h1>Hola Mundo</h1>)
     }
   ]);
 

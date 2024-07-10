@@ -1,0 +1,75 @@
+
+/*
+    Header styles for home page
+*/
+.Hero {
+    background-image: url("../assets/home/antares_genesis.webp");
+    height: 100vh;
+}
+
+.hero-box {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+/*
+    Finalizando estilos del header
+*/
+
+
+/*
+    Estilos de la primera seccion del home page
+*/
+
+.home-section-1 {
+    background-image: url("../assets/home/equipo_programa_aeroespacial.webp");
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.home-section-1 h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.home-section-1 button {
+    margin-top: 1rem;
+}
+
+.logo-section-1 {
+    position: absolute;
+    z-index: 1;
+    right: 15rem;
+    top: -10rem;
+}
+
+/*
+    Finalizando estilos de Section_1
+*/
+
+/*
+    Estilos de Iniciativas
+*/
+
+.iniciativas {
+    padding: 5rem 0rem;
+}
+
+.iniciativas-content{ 
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 7rem;
+}
+
+.inicativas-title {
+    font-size: 3.2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
