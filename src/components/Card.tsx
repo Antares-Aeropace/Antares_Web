@@ -5,7 +5,7 @@ type Props = {
     title: string,
     text_card: string,
     btn_text: string,
-    img: string 
+    img: string, 
 }
 
 const Card = ({title, text_card, btn_text, img}:Props) => {
