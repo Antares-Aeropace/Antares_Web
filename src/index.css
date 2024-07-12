@@ -36,4 +36,20 @@ a {
 
 .shadow-box {
     background-color: rgba(0, 0, 0, 0.55);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.shadow-box-darker {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
 }

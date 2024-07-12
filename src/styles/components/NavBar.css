@@ -4,8 +4,9 @@
     color: var(--white-antares);
     margin: 0;
     height: 4rem;
-    z-index: 1;
-    position: relative;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
 }
 
 .NavBar h1, h2, p, a{
