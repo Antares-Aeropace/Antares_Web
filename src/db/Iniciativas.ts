@@ -19,8 +19,8 @@ const Iniciativas_Data = [
     },
     {
         id: 3,
-        title: "Antares Ed",
-        text_card: "Donde ofrecemos servicios de divulgacion STEAM, capacitacion especializada y cursos a la sociedad para mejorar la calidad educativa de la region en LATAM.",
+        title: "Antares ED",
+        text_card: "Donde ofrecemos servicios de divulgación STEAM, capacitación especializada y cursos a la sociedad para mejorar la calidad educativa de la región en LATAM.",
         btn_text: "Conoce más",
         img: Antares_Ed
     }

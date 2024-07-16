@@ -31,8 +31,8 @@ const Footer = ()=> {
                     <h3>CONTACTO</h3>
                     <p>bussiness@antaresaerospace.com</p>
                     <h1></h1>
-                    <p>Politicas de Privacidad</p>
-                    <p>Terminos de uso</p>
+                    <p>Políticas de Privacidad</p>
+                    <p>Términos de uso</p>
                 </div>
             </div>
         </footer>
