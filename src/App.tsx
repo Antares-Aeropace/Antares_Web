@@ -12,8 +12,28 @@ function App() {
       element: <Home />
     },
     {
-      path: "Nosotros",
-      element: (<h1>Hola Mundo</h1>)
+      path: "nosotros",
+      element: (<h1>Nosotros</h1>)
+    },
+    {
+      path: "antares-aerospace",
+      element: (<h1>Antares Aerospace</h1>)
+    },
+    {
+      path: "antares-tech",
+      element: (<h1>Antares Tech</h1>)
+    },
+    {
+      path: "antares-ed",
+      element: (<h1>Antares ED</h1>)
+    },
+    {
+      path: "store",
+      element: (<h1>Tienda antarosa</h1>)
+    },
+    {
+      path: "contact",
+      element: (<h1>Contacto antaroso</h1>)
     }
   ]);
 

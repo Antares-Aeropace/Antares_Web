@@ -114,7 +114,7 @@
 }
 
 /*
-    Finalizando estilos de Section 1 home
+    Finalizando estilos de Section 2 home
 */
 
 
@@ -163,5 +163,34 @@
 }
 
 /*
-    Finalizando estilos de Section 1 home
+    Finalizando estilos de Section 3 home
 */
+
+/*
+    Estilos de la seccion de experiencias
+*/
+
+.home-projects {
+    background-image: url("../assets/home/mexico_espacio_2.webp");
+    height: 150vh;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.home-projects-content {
+    position: relative;
+    z-index: 1;
+}
+
+.home-projects-title {
+    font-size: 2rem;
+    text-align: right;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid white;
+}
+
+.home-projects-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

@@ -10,15 +10,15 @@ const NavBar = () => {
                     <img src={Logo} alt="Logo"/>
                 </Link>
                 <div className="Options">
-                    <Link to={"Nosotros"}>Nosotros</Link>
-                    <Link to={"Iniciativas"}>Antares Aerospace</Link>
-                    <Link to={"Iniciativas"}>Antares ED</Link>
-                    <Link to={"Antares Tech"}>Antares Tech</Link>
+                    <Link to={"nosotros"}>Nosotros</Link>
+                    <Link to={"antares-aerospace"}>Antares Aerospace</Link>
+                    <Link to={"antares-ed"}>Antares ED</Link>
+                    <Link to={"antares-tech"}>Antares Tech</Link>
 
                 </div>
                 <div className="Options">
-                    <Link to={"Tienda"}>Tienda</Link>
-                    <Link to={"Contacto"}>Contacto</Link>
+                    <Link to={"store"}>Tienda</Link>
+                    <Link to={"contact"}>Contacto</Link>
                 </div>
             </div>
         </nav>
