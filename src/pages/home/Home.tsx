@@ -1,9 +1,13 @@
+// Styles
 import "../../styles/Home.css"
 
 // Components
 import NavBar from "../../components/NavBar"
 import Button from "../../components/Button"
 import Card from "../../components/Card"
+import Footer from "../../components/Footer"
+import ProjectCard from "../../components/ProjectCard"
+
 
 // Assets
 import Logo_a from "../../assets/home/antares_logo_solo_a.webp"
@@ -12,6 +16,8 @@ import Logo_tech from "../../assets/home/antares_tech_bbwl.webp"
 
 // Data for projects
 import Iniciativas_Data from "../../db/Iniciativas"
+import Proyectos from "../../db/Projectos"
+
 
 const Home = () => {
     return (
@@ -97,10 +103,22 @@ const Home = () => {
                     <div className="shadow-box-darker"></div>
                 </section>
 
-            </main>
-            <footer>
+                <section className="home-projects">
+                    <div className="home-projects-content container">
+                        <h2 className="home-projects-title">Experiencias y proyectos</h2>
+                        <div className="home-projects-list" >
+                            {
+                                Proyectos.map(item => (
+                                    <ProjectCard title={item.title} img={item.img} text={item.text} key={item.id} />
+                                ))
+                            }
+                        </div>
+                    </div>
+                    <div className="shadow-box"></div>
+                </section>
 
-            </footer>
+            </main>
+            <Footer />
         </>
     )
 }

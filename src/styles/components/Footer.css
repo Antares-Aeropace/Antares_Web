@@ -1,0 +1,32 @@
+/*
+    Estilos del footer del home
+*/
+
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2rem 0;
+}
+
+.footer-logo{
+    max-width: 50%;
+    border-right: 3px solid var(--white-antares);
+    padding-right: 1rem;
+}
+
+.footer-content-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap:0.5rem;
+}
+
+.footer-content-list a {
+    max-width: fit-content;
+}
+
+.footer-content-list img {
+    max-width: 4rem;
+    color: white;
+    background-color: white;
+}
