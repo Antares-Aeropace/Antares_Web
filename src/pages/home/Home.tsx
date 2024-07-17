@@ -28,9 +28,9 @@ const Home = () => {
                     <div>
                         <h1>Impulsando el sector espacial en LATAM</h1>
                         <p>
-                            En Antares Aerospace desarrollamos tecnologia espacial 100%
-                            mexicana, brindando servicios de ingenieria y educativos en pro
-                            de un autentico sector espacial en Mexico.
+                            En Antares Aerospace desarrollamos tecnología espacial 100%
+                            mexicana, brindando servicios de ingeniería y educativos en pro
+                            de un auténtico sector espacial en México.
                         </p>
                         <Button text={"Sobre nosotros"}/>
                     </div>
@@ -45,7 +45,7 @@ const Home = () => {
                         <div></div>
                         <div>
                             <img src={Logo_a} alt="Logo" className="Logo_a"/>
-                            <h1>Tenemos la capacidad para integrar y desarrollar tecnologia</h1>
+                            <h1>Tenemos la capacidad para integrar y desarrollar tecnología</h1>
                             <Button text={"Nuestras capacidades"} />
                         </div>
                     </div>
@@ -67,16 +67,16 @@ const Home = () => {
                     <div className="home-section-2-content container">
                         <div>
                             <p className="home-section-2-label">
-                                Render Mision Lanzador Suborbital Genesis.
-                                Proyeccion de Lanzamiento 2026.
+                                Render Misión Lanzador Suborbital Génesis.
+                                Proyección de Lanzamiento 2026.
                             </p>
                         </div>
                         <div>
                             <img src={Logo} alt="Logo Antares Aerospace" className="home-section-2-logo"/>
-                            <h1>Diseña con nosotros tu mision</h1>
+                            <h1>Diseña con nosotros tu misión</h1>
                             <p>
                                 Explora las soluciones de vanguardia que la industria espacial
-                                trae para ti como gobierno, industria, academia, empresa y mas.
+                                trae para ti como gobierno, industria, academia, empresa y más.
                             </p>
                             <Button text={"Explora nuestros servicios"} />
                         </div>
@@ -90,9 +90,9 @@ const Home = () => {
                             <h1>Asumimos que es posible</h1>
                             <p>
                                 No importa cual sea tu reto, tenemos la capacidad
-                                para integrar y desarrollar la tecnologia que te dara 
+                                para integrar y desarrollar la tecnología que te dará 
                                 la competitividad que necesitas o bien el producto
-                                que empatara tu idea con el mundo real
+                                que empatará tu idea con el mundo real
                             </p>
                             <Button text={"Explora nuestros servicios"} />
                         </div>

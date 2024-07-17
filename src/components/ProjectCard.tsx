@@ -22,7 +22,7 @@ const ProjectCard = ({title, img, text}:Props) => {
             onMouseEnter={() => setIsHover(true)}
             onMouseLeave={() => setIsHover(false)}
             >
-            Conocer mas...
+            Conocer más...
             </button>
         </div>
     </div>
