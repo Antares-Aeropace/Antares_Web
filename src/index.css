@@ -54,3 +54,16 @@ a {
     left: 0;
     z-index: 0;
 }
+
+.btn-secondary{
+    font-weight: bold;
+    background-color: var(--red-antares);
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    border: 1px transparent;
+}
+
+.btn-secondary:hover{
+    cursor: pointer;
+}

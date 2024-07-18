@@ -1,196 +1,428 @@
 
-/*
+/* ============================================================================================================================================
     Header styles for home page
+============================================================================================================================================ */ 
+
+/*
+    Mobile
 */
 
-.hero {
-    background-image: url("../assets/home/antares_genesis.webp");
-    height: 100vh;
-    position: relative;
-}
-
-.hero-content{
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    z-index: 1;
-    position: relative;
-    height: 100%;
-    font-size: 2rem;
-    align-items: center;
+@media (max-width: 480px){
+    .hero {
+        background-image: url("../assets/home/Tierra_espacio.png");
+        height: 100vh;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .hero-content-text {
+        display: none;
+    }
+    
+    .hero-content-title {
+        font-size: 1.7rem;
+        border-bottom: 2px solid white;
+    }
+    
+    .Logo_a_header{
+        width: 120%;
+        position: absolute;
+        left: -30%;
+        top: 12%;
+        z-index: -1;
+    
+    }
+    
+    .hero-content{
+        display: flex;
+        z-index: 3;
+        position: relative;
+        height: 80%;
+        font-size: 2rem;
+        text-align: right;
+        padding-top: 22rem;
+    }
+    
+    .hero-content button {
+        font-size: 1rem;
+    }
 }
 
 
 /*
+    Desktop 
+*/
+@media (min-width: 1200px) {
+
+    .hero {
+        background-image: url("../assets/home/antares_genesis.webp");
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+    }
+
+    .hero-content-text {
+        display: block;
+    }   
+    
+    .Logo_a_header{
+        display: none;
+    }
+    
+    .hero-content{
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        z-index: 1;
+        position: relative;
+        height: 100%;
+        font-size: 2rem;
+        align-items: center;
+        padding-top: 0;
+        text-align: left;
+    }
+
+    .hero-content-title {
+        font-size: 5rem;
+    }
+    
+    .btn-mobile{
+        display: none;
+    }
+}
+
+
+/* ============================================================================================================================================
     Finalizando estilos del header
-*/
+============================================================================================================================================ */
 
 
-/*
+/* ============================================================================================================================================
     Estilos de la primera seccion del home page
-*/
+============================================================================================================================================ */
 
 .home-section-1 {
-    background-image: url("../assets/home/equipo_programa_aeroespacial.webp");
-    background-position: center;
-    height: 100vh;
-    position: relative;
+    display: none;
 }
 
-.Logo_a {
-    margin-top: -29rem;
+@media (min-width: 1200px){
+    .home-section-1 {
+        background-image: url("../assets/home/equipo_programa_aeroespacial.webp");
+        background-position: center;
+        height: 100vh;
+        position: relative;
+    }
+    
+    .Logo_a {
+        margin-top: -29rem;
+    }
+    
+    .home-section-1-content{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        z-index: 1;
+        position: relative;
+        height: 100%;
+        align-items: center;
+        text-align: right;
+        font-size: 2.5rem;
+    }
 }
-
-.home-section-1-content{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    z-index: 1;
-    position: relative;
-    height: 100%;
-    align-items: center;
-    text-align: right;
-    font-size: 2.5rem;
-}
-/*
+/* ============================================================================================================================================
     Finalizando estilos de Section 1 home
-*/
+============================================================================================================================================ */
 
-/*
+/* ============================================================================================================================================
     Estilos de Iniciativas home
-*/
+============================================================================================================================================ */
 
-.iniciativas {
-    padding: 5rem 0rem;
+@media (max-width: 480px){
+    .iniciativas-content{ 
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 4rem;
+        padding-bottom: 5rem;
+    }
+
+    .inicativas-title {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
 }
 
-.iniciativas-content{ 
-    margin-top: 5rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 5rem;
+
+@media(min-width: 1200px){
+        
+    .iniciativas {
+        padding: 5rem 0rem;
+    }
+
+    .iniciativas-content{ 
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 5rem;
+    }
+
+    .inicativas-title {
+        font-size: 3.2rem;
+        padding-bottom: 1rem;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+
 }
 
-.inicativas-title {
-    font-size: 3.2rem;
-    padding-bottom: 1rem;
-    text-align: center;
-    border-bottom: 1px solid white;
-}
-
-/*
+/* ============================================================================================================================================
     Finalizando estilos de las iniciativas
-*/
+============================================================================================================================================ */
 
-/*
+/* ============================================================================================================================================
     Estilos de la segunda seccion del home page
+============================================================================================================================================ */
+
+/*
+    Mobile
 */
 
-.home-section-2 {
-    background-image: url("../assets/home/servicios_antares.webp");
-    background-position: center;
-    height: 100vh;
-    position: relative;
-}
+@media (max-width: 480px){
+    .home-section-2 {
+        background-image: url("../assets/home/servicios_antares.webp");
+        background-position: center;
+        height: 100vh;
+        position: relative;
+    }
+    
+    .home-section-2-content{
+        display: flex;
+        position: relative;
+        z-index: 1;
+    }
 
-.home-section-2-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    z-index: 1;
-    position: relative;
-    height: 100%;
-    align-items: center;
-    text-align: left;
-    column-gap: 2rem;
-    font-size: 2rem;
-}
+    .home-section-2-description {
+        margin-top: 15rem;
+        text-align: right;
+    }
 
-.home-section-2-label{
-    font-size: 1.4rem;
-    text-align: right;
-    bottom: 20%;
-}
+    .home-section-2-description h1{
+        border-bottom: 2px solid white;
+    }
 
-.home-section-2-logo {
-    max-width: 80%;
+    .home-section-2-label{
+        display: none;
+    }
+    
+    .home-section-2-logo {
+        max-width: 100%;
+    }    
+
 }
 
 /*
+    Desktop
+*/
+@media (min-width: 1200px){
+    .home-section-2 {
+        background-image: url("../assets/home/servicios_antares.webp");
+        background-position: center;
+        height: 100vh;
+        position: relative;
+    }
+    
+    .home-section-2-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        z-index: 1;
+        position: relative;
+        height: 100%;
+        align-items: center;
+        text-align: left;
+        column-gap: 2rem;
+        font-size: 2rem;
+    }
+    
+    .home-section-2-label{
+        font-size: 1.4rem;
+        text-align: right;
+        bottom: 20%;
+    }
+    
+    .home-section-2-logo {
+        max-width: 80%;
+    }
+    
+}
+
+/* ============================================================================================================================================
     Finalizando estilos de Section 2 home
-*/
+============================================================================================================================================ */
 
 
-/*
+/* ============================================================================================================================================
     Estilos de la tercera seccion del home page
-*/
+============================================================================================================================================ */
 
-.home-section-3 {
-    background-image: url("../assets/home/antares_technologies_bg.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-position: center;
-    height: 100vh;
-    position: relative;
-}
-
-.home-section-3-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    z-index: 1;
-    position: relative;
-    height: 100%;
-    align-items: center;
-    text-align: left;
-    column-gap: 2rem;
-    font-size: 2rem;
-}
-
-.home-section-3-content-left {
-    text-align: right;
-    border-right: 4px solid white;
-    padding-right: 2rem;
-}
-
-.home-section-3-content-rigth{
-    display: flex;
-}
-
-.home-section-3-content-rigth img {
-    max-width: 100%;
-}
-
-.home-section-3-content h1 {
-    font-size: 5rem;
-}
 
 /*
+    Mobile
+*/
+
+@media (max-width: 480px){
+    .home-section-3 {
+        background-image: url("../assets/home/antares_technologies_bg.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-position: center;
+        height: 100vh;
+        position: relative;
+    }
+    
+    .home-section-3-content{
+        display: flex;
+        position: relative;
+        flex-direction: column-reverse;
+        padding-top: 40%;
+        z-index: 1;
+    }
+    
+    .home-section-3-content-left {
+        text-align: left;
+        padding-right: 2rem;
+        font-size: 1rem;
+    }
+
+    .home-section-3-content-left button {
+        font-size: 0.9rem;
+    }
+    
+    .home-section-3-content-rigth{
+        display: flex;
+    }
+
+    .home-section-3-content-rigth img {
+        max-width: 100%;
+    }
+
+        
+    .home-section-3-content h1 {
+        font-size: 2rem;
+    }
+    
+}
+
+
+/*
+    Desktop
+*/
+
+@media (min-width: 1200px){
+    .home-section-3 {
+        background-image: url("../assets/home/antares_technologies_bg.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-position: center;
+        height: 100vh;
+        position: relative;
+    }
+    
+    .home-section-3-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        z-index: 1;
+        position: relative;
+        height: 100%;
+        align-items: center;
+        text-align: left;
+        column-gap: 2rem;
+        font-size: 2rem;
+    }
+    
+    .home-section-3-content-left {
+        text-align: right;
+        border-right: 4px solid white;
+        padding-right: 2rem;
+    }
+    
+    .home-section-3-content-rigth{
+        display: flex;
+    }
+    
+    .home-section-3-content-rigth img {
+        max-width: 100%;
+    }
+    
+    .home-section-3-content h1 {
+        font-size: 5rem;
+    }
+    
+}
+
+/* ============================================================================================================================================
     Finalizando estilos de Section 3 home
-*/
+============================================================================================================================================ */
 
-/*
+/* ============================================================================================================================================
     Estilos de la seccion de experiencias
-*/
+============================================================================================================================================ */
 
-.home-projects {
-    background-image: url("../assets/home/mexico_espacio_2.webp");
-    height: 150vh;
-    position: relative;
-    background-repeat: no-repeat;
+@media(max-width: 480px){
+    .home-projects {
+        background-image: url("../assets/home/mexico_espacio_2.webp");
+        position: relative;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 5rem;
+    }
+
+    .home-projects-list{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .home-projects-content {
+        position: relative;
+        z-index: 1;
+    }
+
+    .home-projects-title {
+        font-size: 2rem;
+        text-align: right;
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid white;
+    }
 }
 
-.home-projects-content {
-    position: relative;
-    z-index: 1;
-}
+@media(min-width: 1200px){
+    .home-projects {
+        background-image: url("../assets/home/mexico_espacio_2.webp");
+        height: 150vh;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
-.home-projects-title {
-    font-size: 2rem;
-    text-align: right;
-    padding-top: 4rem;
-    padding-bottom: 1rem;
-    border-bottom: 2px solid white;
-}
+    .home-projects-content {
+        position: relative;
+        z-index: 1;
+    }
 
-.home-projects-list{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    .home-projects-title {
+        font-size: 2rem;
+        text-align: right;
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid white;
+    }
+
+    .home-projects-list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

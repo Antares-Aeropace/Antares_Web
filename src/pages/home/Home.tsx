@@ -26,12 +26,14 @@ const Home = () => {
                 <NavBar />
                 <div className="hero-content container">
                     <div>
-                        <h1>Impulsando el sector espacial en LATAM</h1>
-                        <p>
+                        <img src={Logo_a} alt="Logo" className="Logo_a_header"/>
+                        <h1 className="hero-content-title">Impulsando el sector espacial en LATAM</h1>
+                        <p className="hero-content-text">
                             En Antares Aerospace desarrollamos tecnología espacial 100%
                             mexicana, brindando servicios de ingeniería y educativos en pro
                             de un auténtico sector espacial en México.
                         </p>
+                        <button className="btn-secondary btn-mobile"> Nuestras iniciativas</button>
                         <Button text={"Sobre nosotros"}/>
                     </div>
                     <div></div>
@@ -71,7 +73,7 @@ const Home = () => {
                                 Proyección de Lanzamiento 2026.
                             </p>
                         </div>
-                        <div>
+                        <div className="home-section-2-description">
                             <img src={Logo} alt="Logo Antares Aerospace" className="home-section-2-logo"/>
                             <h1>Diseña con nosotros tu misión</h1>
                             <p>

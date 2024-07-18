@@ -2,11 +2,11 @@
 .btn {
     background: transparent;
     border: 1px solid white;
-    border-radius: 15px;
+    border-radius: 10px;
     font-weight: bold;
     color: var(--white-antares);
     font-size: 1.5rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding: 0.5rem 2rem;
     transition: 0.8s;
 }
@@ -17,3 +17,12 @@
     border: 1px solid var(--red-antares);
     transition: 0.8s;
 }
+
+
+
+@media (max-width: 480px) {
+    .btn{
+        font-size: 1rem;
+    }
+}
+

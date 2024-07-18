@@ -3,6 +3,7 @@
     background-color: var(--bg-color);
     display: flex;
     flex-direction: column;
+    border-radius: 15px 15px 0px 0px;
 }
 
 .Card img {
