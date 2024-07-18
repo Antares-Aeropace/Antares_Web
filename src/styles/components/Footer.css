@@ -2,31 +2,64 @@
     Estilos del footer del home
 */
 
-.footer-content{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    padding: 2rem 0;
+@media(max-width: 480px){
+        
+    .footer-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 2rem 0;
+    }
+
+    .footer-logo{
+        display: none;
+    }
+
+    .footer-content-list {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        gap:0.5rem;
+    }
+
+    .footer-content-list a {
+        max-width: fit-content;
+    }
+
+    .footer-content-list img {
+        max-width: 4rem;
+        color: white;
+        background-color: white;
+    }
 }
 
-.footer-logo{
-    max-width: 50%;
-    border-right: 3px solid var(--white-antares);
-    padding-right: 1rem;
-}
 
-.footer-content-list {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    gap:0.5rem;
-}
+@media(min-width: 1200px){
+    .footer-content{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding: 2rem 0;
+    }
 
-.footer-content-list a {
-    max-width: fit-content;
-}
+    .footer-logo{
+        max-width: 50%;
+        border-right: 3px solid var(--white-antares);
+        padding-right: 1rem;
+    }
 
-.footer-content-list img {
-    max-width: 4rem;
-    color: white;
-    background-color: white;
+    .footer-content-list {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        gap:0.5rem;
+    }
+
+    .footer-content-list a {
+        max-width: fit-content;
+    }
+
+    .footer-content-list img {
+        max-width: 4rem;
+        color: white;
+        background-color: white;
+    }
 }

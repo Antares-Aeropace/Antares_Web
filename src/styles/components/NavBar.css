@@ -1,47 +1,111 @@
+@media (max-width: 480px){
+    .NavBar {
+        background-color: var(--black-antares);
+        color: var(--white-antares);
+        margin: 0;
+        height: 4rem;
+        z-index: 4;
+        position: fixed;
+        width: 100%;
+    }
 
-.NavBar {
-    background-color: var(--black-antares);
-    color: var(--white-antares);
-    margin: 0;
-    height: 4rem;
-    z-index: 2;
-    position: fixed;
-    width: 100%;
+    .NavBar h1, h2, p, a{
+        margin: 0;
+    }
+
+    .Nav_layout {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 1rem;
+    }
+
+    .menu-btn {
+        background-color: transparent;
+        border: none;
+    }
+
+    .menu-btn img {
+        background-color: transparent;
+        width: 2rem;
+    }
+
+    .Options {
+        display: none;
+    }
+
+    .Options a {
+        border-bottom: 4px solid transparent;
+        transition: 0.5s;
+    }
+
+    .Options a:hover {
+        border-bottom: 4px solid var(--red-antares);
+        transition: 0.5s;
+    }
+
+    .Logo {
+        max-width: 13rem;
+        align-self: center;
+        display: flex;
+    }
+
+    .Logo img {
+        max-width: 10rem;
+    }
 }
 
-.NavBar h1, h2, p, a{
-    margin: 0;
-}
 
-.Nav_layout {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 0.3rem;
-}
+@media (min-width: 1200px){
+    
+    .NavBar {
+        background-color: var(--black-antares);
+        color: var(--white-antares);
+        margin: 0;
+        height: 4rem;
+        z-index: 2;
+        position: fixed;
+        width: 100%;
+    }
 
-.Options {
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem;
-}
+    .menu-btn {
+        display: none;
+    }
 
-.Options a {
-    border-bottom: 4px solid transparent;
-    transition: 0.5s;
-}
+    .NavBar h1, h2, p, a{
+        margin: 0;
+    }
 
-.Options a:hover {
-    border-bottom: 4px solid var(--red-antares);
-    transition: 0.5s;
-}
+    .Nav_layout {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0.3rem;
+    }
 
-.Logo {
-    max-width: 13rem;
-    align-self: center;
-    display: flex;
-}
+    .Options {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
 
-.Logo img {
-    max-width: 13rem;
+    .Options a {
+        border-bottom: 4px solid transparent;
+        transition: 0.5s;
+    }
+
+    .Options a:hover {
+        border-bottom: 4px solid var(--red-antares);
+        transition: 0.5s;
+    }
+
+    .Logo {
+        max-width: 13rem;
+        align-self: center;
+        display: flex;
+    }
+
+    .Logo img {
+        max-width: 13rem;
+    }
 }
