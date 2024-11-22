@@ -3,6 +3,7 @@ import {
   RouterProvider
 } from 'react-router-dom'
 import Home from './pages/home/Home';
+import Antares_ED from './pages/Antares_ED';
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
     },
     {
       path: "nosotros",
-      element: (<h1>Nosotros</h1>)
+      element: (<h1> Nosotros </h1>)
     },
     {
       path: "antares-aerospace",
@@ -25,7 +26,7 @@ function App() {
     },
     {
       path: "antares-ed",
-      element: (<h1>Antares ED</h1>)
+      element: <Antares_ED />
     },
     {
       path: "store",

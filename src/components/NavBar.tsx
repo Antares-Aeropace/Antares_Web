@@ -12,6 +12,8 @@ const NavBar = () => {
                     <img src={Logo} alt="Logo"/>
                 </Link>
 
+                <div className="divisor_line"></div>
+
                 <button className="menu-btn">
                     <img src={Menu} alt="Menu" />
                 </button>
@@ -21,14 +23,9 @@ const NavBar = () => {
                     <Link to={"antares-aerospace"}>Antares Aerospace</Link>
                     <Link to={"antares-ed"}>Antares ED</Link>
                     <Link to={"antares-tech"}>Antares Tech</Link>
-
-                </div>
-                <div className="Options">
                     <Link to={"store"}>Tienda</Link>
                     <Link to={"contact"}>Contacto</Link>
                 </div>
-
-
             </div>
         </nav>
     )
