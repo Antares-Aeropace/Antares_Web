@@ -5,7 +5,8 @@ import {
 
 // Pages
 import Home from './pages/home/Home';
-import Nosotros from './pages/Nosotros/Nosotros';
+import Nosotros from './pages/Nosotros/Nosotros'
+import Antares_ED from './pages/AE/Antares_ED';
 
 function App() {
 
@@ -28,11 +29,7 @@ function App() {
     },
     {
       path: "antares-ed",
-      element: (<h1>Antares ED</h1>)
-    },
-    {
-      path: "store",
-      element: (<h1>Tienda antarosa</h1>)
+      element: <Antares_ED />
     },
     {
       path: "contact",

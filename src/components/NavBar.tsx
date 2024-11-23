@@ -22,10 +22,10 @@ const NavBar = () => {
                 </button>
                 
                 <div className="Options">
-                    <Link to={"nosotros"}>Nosotros</Link>
-                    <Link to={"antares-aerospace"}>Iniciativas</Link>
-                    <Link to={"antares-ed"}>Soluciones</Link>
-                    <Link to={"antares-tech"}>Servicios</Link>
+                    <Link to={"/nosotros"}>Nosotros</Link>
+                    <Link to={"/antares-aerospace"}>Iniciativas</Link>
+                    <Link to={"/antares-ed"}>Soluciones</Link>
+                    <Link to={"/antares-tech"}>Servicios</Link>
 
                 </div>
                 <div className="Options">
