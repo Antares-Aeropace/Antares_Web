@@ -1,6 +1,10 @@
+.NavBar_scroll {
+    background-color: var(--black-antares);
+}
+
+
 @media (max-width: 480px){
     .NavBar {
-        background-color: var(--black-antares);
         color: var(--white-antares);
         margin: 0;
         height: 4rem;
@@ -59,8 +63,9 @@
 @media (min-width: 1200px){
     
     .NavBar {
-        background-color: var(--black-antares);
         color: var(--white-antares);
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); 
         margin: 0;
         height: 4rem;
         z-index: 2;

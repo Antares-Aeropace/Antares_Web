@@ -18,6 +18,23 @@
     transition: 0.8s;
 }
 
+.btn-secundario {
+    background-color: var(--red-antares);
+    border: 1px solid var(--red-antares);
+    border-radius: 10px;
+    color: var(--white-antares);
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+    transition: 0.8s;
+}
+
+.btn-secundario:hover {
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid white;
+    transition: 0.8s;
+}
 
 
 @media (max-width: 480px) {

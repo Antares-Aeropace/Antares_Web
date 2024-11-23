@@ -2,7 +2,10 @@ import {
   createBrowserRouter,
   RouterProvider
 } from 'react-router-dom'
+
+// Pages
 import Home from './pages/home/Home';
+import Nosotros from './pages/Nosotros/Nosotros';
 
 function App() {
 
@@ -13,7 +16,7 @@ function App() {
     },
     {
       path: "nosotros",
-      element: (<h1>Nosotros</h1>)
+      element: (<Nosotros />)
     },
     {
       path: "antares-aerospace",
