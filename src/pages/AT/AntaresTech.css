@@ -1,0 +1,41 @@
+
+.hero_AT {
+    background-image: url("../../assets/AT/FondoHero.png");
+    background-size: cover;
+    height: 620px;
+    position: relative;
+    margin-bottom: 20rem;
+    text-align: center;
+}
+
+.hero_AT h1 {
+    font-size: 3.5rem;
+}
+
+.hero_AT h1, h3 {
+    position: relative;
+    z-index: 2;
+}
+
+
+.blur {
+    position: absolute;
+    width: 110%;
+    background-color: rgba(0,0,0,0.6);
+    filter: blur(1rem);
+    height: 10rem;
+    bottom: -4rem;
+    z-index: 1;
+}
+
+
+.logo_AT {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9rem;
+}
+
+.logo_AT img {
+    max-width: 15%;
+}
