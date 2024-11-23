@@ -1,0 +1,158 @@
+
+p {
+    text-align: justify;
+}
+
+.hero-nosotros{
+    background-image: url("../../assets/nosotros/Proyectos/Genesis_1.png");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    position: relative;
+}
+
+.hero-logo-nosotros {
+    position: absolute;
+    bottom: 0%;
+    left: 29%;
+}
+
+.nosotros-iniciativas{
+    padding-top: 5rem;
+}
+
+.nosotros-genesis{
+    display: flex;
+    font-size: 1.4rem;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.nosotros-genesis-text {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.nosotros-genesis-text p {
+    margin-bottom: 2rem;
+}
+
+.nosotros-genesis-text hr {
+    width: 100%;
+}
+
+.nosotros-genesis h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.nosotros-genesis span {
+    color: gray;
+}
+
+.nosotros-genesis img {
+    height: 100%;
+}
+
+.nosotros-genesis-2 {
+    display: flex;
+    gap: 2rem;
+}
+
+.nosotros-genesis-2 p {
+    font-size: 1.4rem;
+    justify-content: center;
+    text-justify: auto;
+}
+
+.nosotros-genesis-2-text {
+    margin-top: 10%;
+}
+
+.nosotros-tecnologies {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.nosotros-tecnologies-text{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.nosotros-tecnologies-text hr {
+    width: 100%;
+}
+
+.nosotros-tecnologies p {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.logo-techdev {
+    max-width: 80%;
+}
+
+.nosotros-educativo {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.nosotros-educativo-text {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.nosotros-educativo-text img {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.nosotros-educativo-text p {
+    font-size: 1.4rem;
+}
+
+.nosotros-educativo-text hr {
+    width: 100%;
+}
+
+.nosotros-aliados {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.nosotros-aliados h1 {
+    font-size: 3rem;
+}
+
+.nosotros-aliados h3 {
+    background-color: #262626;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 1.7rem;
+}
+
+.nosotros-aliados-content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2rem;
+    grid-auto-flow: row;
+    align-items: center;
+    justify-items: center;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.nosotros-aliados-content h3 {
+    width: 90%;
+}
+
+.aliados img {
+    max-height: 200px;
+    object-fit:fill;
+}

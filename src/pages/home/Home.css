@@ -9,7 +9,7 @@
 
 @media (max-width: 480px){
     .hero {
-        background-image: url("../assets/home/Tierra_espacio.png");
+        background-image: url("../../assets/home/Tierra_espacio.png");
         height: 100vh;
         position: relative;
         background-repeat: no-repeat;
@@ -56,7 +56,7 @@
 @media (min-width: 1200px) {
 
     .hero {
-        background-image: url("../assets/home/antares_genesis.webp");
+        background-image: url("../../assets/home/antares_genesis.webp");
         background-size: cover;
         height: 100vh;
         position: relative;
@@ -107,7 +107,7 @@
 
 @media (min-width: 1200px){
     .home-section-1 {
-        background-image: url("../assets/home/equipo_programa_aeroespacial.webp");
+        background-image: url("../../assets/home/equipo_programa_aeroespacial.webp");
         background-position: center;
         height: 100vh;
         position: relative;
@@ -190,7 +190,7 @@
 
 @media (max-width: 480px){
     .home-section-2 {
-        background-image: url("../assets/home/servicios_antares.webp");
+        background-image: url("../../assets/home/servicios_antares.webp");
         background-position: center;
         height: 100vh;
         position: relative;
@@ -226,7 +226,7 @@
 */
 @media (min-width: 1200px){
     .home-section-2 {
-        background-image: url("../assets/home/servicios_antares.webp");
+        background-image: url("../../assets/home/servicios_antares.webp");
         background-position: center;
         height: 100vh;
         position: relative;
@@ -272,7 +272,7 @@
 
 @media (max-width: 480px){
     .home-section-3 {
-        background-image: url("../assets/home/antares_technologies_bg.webp");
+        background-image: url("../../assets/home/antares_technologies_bg.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -321,7 +321,7 @@
 
 @media (min-width: 1200px){
     .home-section-3 {
-        background-image: url("../assets/home/antares_technologies_bg.webp");
+        background-image: url("../../assets/home/antares_technologies_bg.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -372,7 +372,7 @@
 
 @media(max-width: 480px){
     .home-projects {
-        background-image: url("../assets/home/mexico_espacio_2.webp");
+        background-image: url("../../assets/home/mexico_espacio_2.webp");
         position: relative;
         height: 100%;
         background-repeat: no-repeat;
@@ -401,7 +401,7 @@
 
 @media(min-width: 1200px){
     .home-projects {
-        background-image: url("../assets/home/mexico_espacio_2.webp");
+        background-image: url("../../assets/home/mexico_espacio_2.webp");
         height: 150vh;
         position: relative;
         background-repeat: no-repeat;
