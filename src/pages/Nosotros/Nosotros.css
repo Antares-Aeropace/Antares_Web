@@ -120,3 +120,39 @@ p {
 .nosotros-educativo-text hr {
     width: 100%;
 }
+
+.nosotros-aliados {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.nosotros-aliados h1 {
+    font-size: 3rem;
+}
+
+.nosotros-aliados h3 {
+    background-color: #262626;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 1.7rem;
+}
+
+.nosotros-aliados-content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2rem;
+    grid-auto-flow: row;
+    align-items: center;
+    justify-items: center;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.nosotros-aliados-content h3 {
+    width: 90%;
+}
+
+.aliados img {
+    max-height: 200px;
+    object-fit:fill;
+}

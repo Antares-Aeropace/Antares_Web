@@ -5,6 +5,9 @@ import "./Nosotros.css"
 import NavBar from "../../components/NavBar"
 import Footer from "../../components/Footer"
 
+// Data
+import { Industria, Academia, Gobierno } from "../../db/Aliados"
+
 // Assets
 import Logo from "../../assets/logos/LogoAntares.svg"
 import LogoTech from "../../assets/logos/antares_tech_bbwl.webp"
@@ -103,17 +106,45 @@ function Nosotros() {
                             <img src={LogoED} alt="Logo ED" />
                             <hr></hr>
                             <p>
-                                Antares Education por su parte nace de la experiencia adquirida en torno a la 
+                                Antares Education por su parte nace de la experiencia adquirida en torno a la
                                 formación y crecimiento de talento interno. Buscando conciliar con esto ofrecer tales capacidades de formación a diversos clientes en diversas industrias.
                             </p>
                             <p>
-                                Generando cursos, brindando conferencias y diseñando 
+                                Generando cursos, brindando conferencias y diseñando
                                 programas de capacitación a medida de tus necesidades como
-                                 empresa o colaborador.
+                                empresa o colaborador.
                             </p>
                             <button className="btn-secundario">Conoce nuestros servicios educativos</button>
                         </div>
                     </div>
+
+                    <div className="nosotros-aliados">
+
+                        <h1>Nuestros Aliados</h1>
+
+                        <div className="nosotros-aliados-content">
+                            <h3>Industria</h3>
+                            <h3>Academia</h3>
+                            <h3>Gobierno</h3>
+
+                            <img src={Industria[0]} />
+                            <img src={Academia[0]} />
+                            <img src={Gobierno[0]} />
+
+                            <img src={Industria[1]} />
+                            <img src={Academia[1]} />
+                            <img src={Gobierno[1]} />
+
+                            <img src={Industria[2]} />
+                            <img src={Academia[2]} />
+                            <img src={Gobierno[2]} />
+
+                            <img src={Industria[3]} />
+                            <img src={Academia[3]} />
+
+                        </div>
+                    </div>
+
 
                 </section>
             </main>

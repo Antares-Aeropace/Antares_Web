@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import "../styles/components/NavBar.css"
 
 import Logo from "../assets/logos/LogoAntares.svg"
-import Menu from "../assets/menu.png"
+import Menu from "../assets/icons/menu.png"
 
 const NavBar = () => {
 
