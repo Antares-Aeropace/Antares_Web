@@ -1,0 +1,120 @@
+
+.hero_AT {
+    background-image: url("../../assets/AT/FondoHero.png");
+    background-size: cover;
+    height: 620px;
+    position: relative;
+    margin-bottom: 20rem;
+    text-align: center;
+}
+
+.hero_AT h1 {
+    margin: 0.3rem;
+    font-size: 4.5rem;
+}
+
+.hero_AT h1, h3 {
+    position: relative;
+    z-index: 2;
+}
+
+.hero_AT h3 {
+    font-size: 1.9rem;
+}
+
+
+.blur {
+    position: absolute;
+    width: 110%;
+    background-color: rgba(0,0,0,0.6);
+    filter: blur(1rem);
+    height: 10rem;
+    bottom: -4rem;
+    z-index: 1;
+}
+
+
+.logo_AT {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9rem;
+}
+
+.logo_AT img {
+    max-width: 15%;
+}
+
+.soluciones-title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.soluciones-content {
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+.soluciones-content img {
+    width: 80%;
+}
+
+.soluciones-text {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 3rem;
+    align-items: center;
+}
+
+.soluciones-text p {
+    font-size: 1.7rem;
+}
+
+.soluciones-text button {
+    margin: 0;
+}
+
+.problemas-industria h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.problemas-industria hr {
+    margin-bottom: 8rem;
+}
+
+.soluciones-industria {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4.1rem;
+}
+
+.solucion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+}
+
+.solucion>img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.solucion-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.solucion-content h2 {
+    font-size: 2.5rem;
+}
+
+.solucion-content p {
+    font-size: 1.5rem;
+}

@@ -28,8 +28,8 @@ function Nosotros() {
                 </div>
             </header>
             <main>
-                <section className="nosotros-iniciativas container">
-                    <div className="nosotros-genesis">
+                <div className="nosotros-iniciativas container">
+                    <section className="nosotros-genesis">
                         <div className="nosotros-genesis-text">
                             <h1>Nosotros somos Antares Aerospace</h1>
                             <span>El espacio es pasión, alcanzarlo juntos nuestra misión</span>
@@ -53,9 +53,9 @@ function Nosotros() {
                         <div>
                             <img src={Genesis} />
                         </div>
-                    </div>
+                    </section>
 
-                    <div className="nosotros-genesis-2">
+                    <section className="nosotros-genesis-2">
 
                         <div>
                             <img src={Genesis_2} alt="genesis" />
@@ -79,9 +79,9 @@ function Nosotros() {
                             <button className="btn-secundario">Conoce mas sobre Antares Aerospace</button>
                         </div>
 
-                    </div>
+                    </section>
 
-                    <div className="nosotros-tecnologies">
+                    <section className="nosotros-tecnologies">
                         <div className="nosotros-tecnologies-text">
                             <img src={LogoTech} alt="AntaresTechDev" className="logo-techdev" />
                             <hr></hr>
@@ -96,10 +96,13 @@ function Nosotros() {
                             </p>
                             <button className="btn-secundario">Conoce más sobre nuestras soluciones</button>
                         </div>
-                        <img src={Dispensador} alt="" />
-                    </div>
+                        {/* <source src={Dispensador}>
+                            <video></video>
+                        </source> */}
+                        <img src={Dispensador} alt="Video Dispensador" className="nosotros-tecnologies-video"/>
+                    </section>
 
-                    <div className="nosotros-educativo">
+                    <section className="nosotros-educativo">
                         <img src={Signal} alt="signal" />
 
                         <div className="nosotros-educativo-text">
@@ -116,9 +119,9 @@ function Nosotros() {
                             </p>
                             <button className="btn-secundario">Conoce nuestros servicios educativos</button>
                         </div>
-                    </div>
+                    </section>
 
-                    <div className="nosotros-aliados">
+                    <section className="nosotros-aliados">
 
                         <h1>Nuestros Aliados</h1>
 
@@ -143,10 +146,8 @@ function Nosotros() {
                             <img src={Academia[3]} />
 
                         </div>
-                    </div>
-
-
-                </section>
+                    </section>
+                </div>
             </main>
 
             <Footer />

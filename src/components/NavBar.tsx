@@ -29,7 +29,7 @@ const NavBar = () => {
 
                 </div>
                 <div className="Options">
-                    <Link to={"contact"}>Contacto</Link>
+                    <a href="#contacto">Contacto</a>
                 </div>
 
 

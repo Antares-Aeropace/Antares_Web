@@ -1,5 +1,5 @@
 .header_AE {
-    background-image: url("../../assets/Antares_ED/fond_origi.png");
+    background-image: url("../../assets/AED/fond_origi.png");
     background-size: cover;
     height: 620px;
     position: relative;
@@ -16,24 +16,34 @@
     margin: 0.3rem;
     font-size: 4.5rem;
     text-align: center;
+    z-index: 2;
+    position: relative;
 }
 
 .subtitle_AE {
     margin: 0.5rem;
     font-size: 1.9rem;
     text-align: center;
+    z-index: 2;
+    position: relative;
 }
 
-.img_rectangulo {
-    width: 100rem;
-    height: 5.1rem;   
-}
-
-
-.img_rectangulo img {
+.blur {
+    position: absolute;
     width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    filter: blur(1rem);
+    height: 10rem;
+    bottom: -1rem;
+    z-index: 1;
+}
+
+.mask {
+    position: absolute;
     height: 100%;
-    object-fit: cover;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
 .first-cards {
@@ -63,20 +73,25 @@
     position: relative;
 }
 
+.text-section {
+    z-index: 2;
+}
+
 /* Cada contenedor usa una imagen distinta */ 
 #cont-1 {
-    background-image: url("../../assets/Antares_ED/programas_capacitacion.svg");
+    background-image: url("../../assets/AED/programas_capacitacion.svg");
 
 }
 
 #cont-2 {
-    background-image: url("../../assets/Antares_ED/cursos_medida.svg");
+    background-image: url("../../assets/AED/cursos_medida.svg");
 
 }
 #cont-3 {
-    background-image: url("../../assets/Antares_ED/conferencias.svg");
+    background-image: url("../../assets/AED/conferencias.svg");
 
 }
+
 
 .capacitacion-container h1 {
     font-size: 3.2rem;
@@ -101,18 +116,3 @@
     margin: 0rem 1.9rem;
 }
 
-.divisor-bottom-line {
-    border-bottom: 0.1rem solid white;
-    height: 2.5rem;
-    margin-right: 0rem 5rem;
-}
-
-/*formulario */
-.formulario {
-    margin: 0rem 2rem;
-}
-.formulario h1 {
-    text-align: center;
-    font-size: 3.2rem;
-    margin: 0
-}

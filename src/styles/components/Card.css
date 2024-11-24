@@ -24,3 +24,12 @@
     flex-direction: column;
     margin: 3rem auto;
 }
+
+.content h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.content p {
+    font-size: 1.2rem;
+}

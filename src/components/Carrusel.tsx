@@ -5,8 +5,6 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 //Components
 import Card_AE from './Card_AE';
 
-//Data
-import first_cards from '../db/first_cards';
 
 const responsive = {
     0: { items: 1 },    // Manera de muestreo por slide
@@ -14,12 +12,22 @@ const responsive = {
     1024: { items: 3 },
 };
 
+type Card = {
+    id: number,
+    title: string,
+    img: string
+}
 
-const Carrusel = () => (
+type Props = {
+    data: Card[]
+}
+
+
+const Carrusel = ({data}:Props) => (
     <AliceCarousel
         mouseTracking
         items={
-            first_cards.map( item => (
+            data.map( item => (
                 <Card_AE title={item.title} img={item.img} key={item.id}/>
             ))
         }

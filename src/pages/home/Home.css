@@ -89,6 +89,10 @@
     .btn-mobile{
         display: none;
     }
+
+    .btn-hero-home {
+        width: 65%;
+    }
 }
 
 
@@ -253,6 +257,17 @@
     .home-section-2-logo {
         max-width: 80%;
     }
+
+    .home-section-2-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .home-section-2-description h1 {
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+    }
     
 }
 
@@ -343,9 +358,13 @@
     }
     
     .home-section-3-content-left {
+        height: 80%;
         text-align: right;
         border-right: 4px solid white;
         padding-right: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
     .home-section-3-content-rigth{
@@ -357,7 +376,8 @@
     }
     
     .home-section-3-content h1 {
-        font-size: 5rem;
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
     }
     
 }
