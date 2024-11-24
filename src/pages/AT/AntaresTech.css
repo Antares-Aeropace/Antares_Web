@@ -39,3 +39,77 @@
 .logo_AT img {
     max-width: 15%;
 }
+
+.soluciones-title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.soluciones-content {
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+.soluciones-content img {
+    width: 80%;
+}
+
+.soluciones-text {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 3rem;
+    align-items: center;
+}
+
+.soluciones-text p {
+    font-size: 1.7rem;
+}
+
+.soluciones-text button {
+    margin: 0;
+}
+
+.problemas-industria h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.problemas-industria hr {
+    margin-bottom: 8rem;
+}
+
+.soluciones-industria {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15rem;
+}
+
+.solucion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+}
+
+.solucion>img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.solucion-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.solucion-content h2 {
+    font-size: 2.5rem;
+}
+
+.solucion-content p {
+    font-size: 1.5rem;
+}
