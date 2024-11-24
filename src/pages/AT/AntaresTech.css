@@ -9,12 +9,17 @@
 }
 
 .hero_AT h1 {
-    font-size: 3.5rem;
+    margin: 0.3rem;
+    font-size: 4.5rem;
 }
 
 .hero_AT h1, h3 {
     position: relative;
     z-index: 2;
+}
+
+.hero_AT h3 {
+    font-size: 1.9rem;
 }
 
 
@@ -85,7 +90,7 @@
 .soluciones-industria {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15rem;
+    margin-bottom: 4.1rem;
 }
 
 .solucion {

@@ -34,7 +34,7 @@ const Home = () => {
                             de un auténtico sector espacial en México.
                         </p>
                         <button className="btn-secondary btn-mobile"> Nuestras iniciativas</button>
-                        <Button text={"Sobre nosotros"}/>
+                        <button className="btn btn-hero-home">Sobre nosotros</button>
                     </div>
                     <div></div>
                 </div>
@@ -68,10 +68,6 @@ const Home = () => {
                 <section className="home-section-2">
                     <div className="home-section-2-content container">
                         <div>
-                            <p className="home-section-2-label">
-                                Render Misión Lanzador Suborbital Génesis.
-                                Proyección de Lanzamiento 2026.
-                            </p>
                         </div>
                         <div className="home-section-2-description">
                             <img src={Logo} alt="Logo Antares Aerospace" className="home-section-2-logo"/>
@@ -94,7 +90,7 @@ const Home = () => {
                                 No importa cual sea tu reto, tenemos la capacidad
                                 para integrar y desarrollar la tecnología que te dará 
                                 la competitividad que necesitas o bien el producto
-                                que empatará tu idea con el mundo real
+                                que empatará tu idea con el mundo real.
                             </p>
                             <Button text={"Explora nuestros servicios"} />
                         </div>
@@ -105,7 +101,7 @@ const Home = () => {
                     <div className="shadow-box-darker"></div>
                 </section>
 
-                <section className="home-projects">
+                {/* <section className="home-projects">
                     <div className="home-projects-content container">
                         <h2 className="home-projects-title">Experiencias y proyectos</h2>
                         <div className="home-projects-list" >
@@ -117,7 +113,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="shadow-box"></div>
-                </section>
+                </section> */}
 
             </main>
             <Footer />

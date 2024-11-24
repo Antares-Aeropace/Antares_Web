@@ -220,6 +220,7 @@ function AntaresTech () {
                     </div>
 
                 </section>
+                <hr className="container"/>
                 <Formulario />
             </main>
             <Footer />

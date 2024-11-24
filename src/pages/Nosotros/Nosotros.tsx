@@ -96,7 +96,10 @@ function Nosotros() {
                             </p>
                             <button className="btn-secundario">Conoce más sobre nuestras soluciones</button>
                         </div>
-                        <img src={Dispensador} alt="" />
+                        {/* <source src={Dispensador}>
+                            <video></video>
+                        </source> */}
+                        <img src={Dispensador} alt="Video Dispensador" className="nosotros-tecnologies-video"/>
                     </section>
 
                     <section className="nosotros-educativo">
