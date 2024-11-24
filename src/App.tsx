@@ -7,6 +7,7 @@ import {
 import Home from './pages/home/Home';
 import Nosotros from './pages/Nosotros/Nosotros'
 import AntaresED from './pages/AED/AntaresED';
+import Antares_Aerospace from './pages/AA/Antares_Aerospace';
 import AntaresTech from './pages/AT/AntaresTech';
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
     },
     {
       path: "antares-aerospace",
-      element: (<h1>Antares Aerospace</h1>)
+      element: <Antares_Aerospace />
     },
     {
       path: "antares-tech",

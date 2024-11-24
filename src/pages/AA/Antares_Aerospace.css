@@ -1,0 +1,444 @@
+.header-AA {
+    background-image: url("../../assets/AA/Fondo_Superior_AA.svg");
+    background-size: cover;
+    height: 91rem;
+    position: relative;
+
+}
+
+
+.logo-AA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15rem;
+    margin-bottom: 2.7rem;
+}
+
+.title-AA {
+    margin: 0;
+    font-size: 4.5rem;
+    text-align: center;
+} 
+
+.title-section-AA {
+    margin: 0rem;
+    font-size: 3.2rem;
+    text-align: center;
+    max-width: 100%;
+
+} 
+.subtitle-AA {
+    margin-top: 1.8rem;
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+.aerospatial-opt {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+   
+}
+.objetivos-clave-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, 1fr);  
+    gap: 0rem 6rem; 
+    width: 100%; 
+    margin: 0rem auto 3rem;
+    position: relative;
+
+}
+.gradient-AA {
+    margin: 0;
+    background: rgb(10,10,10);
+    background: linear-gradient(0deg, rgba(10,10,10,1) 30%, rgb(1, 16, 19) 100%);
+    position: absolute;
+    z-index: 2;
+    top: 89rem;
+    height: 5rem;
+    width: 100rem;
+
+    
+}
+
+
+.divisor-bottom-line-AA-objetivos {
+    display: flex;
+    align-items: center;
+    border-bottom: 0.1rem solid white;
+    height: 1.2rem;
+    opacity: 0.6;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.divisor-bottom-line-AA {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    border-bottom: 0.1rem solid white;
+    opacity: 0.6;
+    width: 100%;
+    height: 1.2rem;
+
+}
+
+#subtitle-1 {
+    font-size: 2.3rem;
+    margin: 2.6rem 0;
+}
+
+.genesis-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2.4rem;
+}
+
+.genesis-section-data {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8.5rem;
+}
+
+
+.fotos-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.fotos-column img {
+    margin: 2.1rem 1.4rem 0rem 0rem;
+    width: 80%;
+    width: 28rem;
+}
+
+/*
+#div-gen-1 {
+    position: absolute;
+    top: 163rem;
+    left: 43.8rem;
+    width: 15rem;
+    margin: 0;
+
+}
+
+#div-gen-2 {
+    position: absolute;
+    top: 163rem;
+    left: 70.4rem;
+    width: 15rem;
+    margin: 0;
+}
+    .info-genesis img {
+    position: absolute;
+    top: 154rem;
+    left: 59.5rem;
+    
+}
+*/
+#div-gen {
+    max-width: 100%;
+    margin-bottom: 1.2rem;
+    height: 1.2rem;
+}
+
+
+.info-genesis {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8.6rem;
+}
+
+
+
+.info-genesis p {
+    margin: 0;
+    text-align: left;
+    font-size: 1.6rem;
+    
+}
+
+
+
+/* ENCABEZADO ESTRUCTURA */
+.encabezado-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    gap: 17rem;
+
+}
+
+
+.encabezado-section > .divisor-bottom-line-AA-objetivos {
+    width: 16rem;
+    margin-bottom: 1.2rem;
+    position: relative;
+    color: #FFFFFF;
+
+    
+}
+
+.encabezado-section img {
+    position: absolute ;
+}
+
+/* IMAGES POSITION */
+
+#img-gen {
+    top: 152.5rem;
+    left: 60.2rem;
+}
+
+#img-gen-3 {
+    position: absolute;
+    top: 154rem;
+    left: 38.5rem;
+    width: 8.5%;
+    padding-bottom: 1rem;
+    margin-right: 1.7rem;
+}
+#info-satelites {
+    padding-top: 0rem;
+
+    width: 39.3rem;
+}
+
+#title-sat {
+    text-align: left;
+    margin-bottom: 1rem;
+
+}
+
+#img-sat {
+    top: 209.5rem;
+    left: 18.5rem;
+}
+
+#img-prod-2 {
+    top: 316rem;
+    left: 55rem;
+}
+/* */
+
+
+#encabezado-sat {
+    padding-top: 5.7rem;
+    gap: 19.5em;
+    
+}
+
+#encabezado-sat > .divisor-bottom-line-AA-objetivos{
+    width: 15.5rem;
+
+}
+
+
+
+#description-gen {
+    color: #A1A1A1;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    font-size: 1.6rem;
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.grid-gen {
+    display: flex;
+    flex-direction: row;
+    
+    font-size: 2rem;
+}
+
+.grid-gen p {
+    width: 50%;
+    text-align: right;
+}
+#data-no-movil {
+    width: 50%;
+    text-align: left;
+}
+
+.button-conoce-mas {
+    margin: 1rem 0 0;
+    width: 100%;
+    height: 4.6rem;
+    border-radius: 0.7rem;
+    border: 0;
+    background-color: #911010;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#title-gen {
+    margin-bottom: 2.1rem;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.misiones-sat {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    gap: 0 2.5rem;
+    margin-bottom: 4.6rem;
+}
+.satelites-column-img {
+    display: flex;
+    flex-direction: row;
+}
+
+#img-sat-2 {
+    width: 80%;
+    width: 35rem;
+}
+
+#img-sat-3 {
+    width: 50%;
+}
+
+
+
+.grid-sat {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.grid-sat p {
+    width: 50%;
+    text-align: right;
+}
+
+
+#div-sat-1 {
+    margin-bottom: 1.2rem;
+
+}
+
+/*///////////////////////////.////////////////////////////////*/
+.misiones-sat-2 {
+    display: flex;
+    flex-direction: row;    
+    margin-bottom: 4.7rem;
+    
+}
+/*///////////////////////////////////////////////////////////*/
+
+
+#cotiza-mision-epacial {
+    gap: 2.5rem;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-bottom: 8rem;
+}
+
+#cotiza-mision-epacial h2 {
+    font-size: 2.5rem;
+}
+#cotiza-sat p {
+    font-size: 1.6rem;
+}
+
+#title-cotiza {
+    margin-bottom: 2.1rem;
+    text-align: left;
+}
+
+#product-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.8rem;
+}
+
+
+#encabezado-product {
+    padding-top: 0rem;
+    
+}
+
+.productos-tech h2{
+    font-size: 2.5rem;
+    
+}
+
+#encabezado-product > .divisor-bottom-line-AA-objetivos{
+    width: 16.5rem;
+    margin-bottom: 2.6rem;
+
+}
+
+.grid-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 80%;
+    gap: 1rem;
+
+
+}
+
+.grid-img img {
+    max-width: 40%;
+}
+
+.div-prod-column {
+    display: flex;
+    flex-direction: column;
+    gap: 5.3rem;
+    
+}
+.div-prod-column img {
+    width: 80%;
+    width: 38rem;
+    
+}
+
+.section-prod-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    
+}
+
+.section-prod-7 img {
+    width: 90%; 
+    width: 120rem; 
+}
+
+.productos-tech {
+    width: 69%;
+}
+
+.section-prod-7 img {
+    max-width: 80%;
+}
+.section-prod-7 > .divisor-bottom-line-AA {
+    width: 100%;
+    margin-bottom: 3.2rem;
+}
+
+#dev-soluciones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 3rem 0 0; /*Elimina el margen inferior de la clase padre*/
+    gap: 3.8rem;
+}
+
+
+/* Comprobacion margen derecho
+.productos-tech {
+    margin-right: 5rem;
+}*/
