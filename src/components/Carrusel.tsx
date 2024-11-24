@@ -6,7 +6,7 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 import Card_AE from './Card_AE';
 
 //Data
-import first_cards from '../db/first_cards';
+import first_cards from '../db/first_cards_AE';
 
 const responsive = {
     0: { items: 1 },    // Manera de muestreo por slide

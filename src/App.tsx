@@ -4,6 +4,7 @@ import {
 } from 'react-router-dom'
 import Home from './pages/home/Home';
 import Antares_ED from './pages/Antares_ED';
+import Antares_Aerospace from './pages/Antares_Aerospace';
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
     },
     {
       path: "antares-aerospace",
-      element: (<h1>Antares Aerospace</h1>)
+      element: <Antares_Aerospace />
     },
     {
       path: "antares-tech",
