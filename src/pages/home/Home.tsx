@@ -1,5 +1,5 @@
 // Styles
-import "../../styles/Home.css"
+import "./Home.css"
 
 // Components
 import NavBar from "../../components/NavBar"
@@ -11,8 +11,8 @@ import ProjectCard from "../../components/ProjectCard"
 
 // Assets
 import Logo_a from "../../assets/home/antares_logo_solo_a.webp"
-import Logo from "../../assets/Antares_logo.png"
-import Logo_tech from "../../assets/home/antares_tech_bbwl.webp"
+import Logo from "../../assets/logos/LogoAntares.svg"
+import Logo_tech from "../../assets/logos/antares_tech_bbwl.webp"
 
 // Data for projects
 import Iniciativas_Data from "../../db/Iniciativas"

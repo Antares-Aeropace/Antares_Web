@@ -1,29 +1,29 @@
 // Styles
-import "../styles/pages/Antares_ED.css"
+import "./Antares_ED.css"
 
 // Components
-import NavBar from "../components/NavBar"
-import Carrusel from "../components/Carrusel"
-import Footer from "../components/Footer"
+import NavBar from "../../components/NavBar"
+import Carrusel from "../../components/Carrusel"
+import Footer from "../../components/Footer"
 
 // Assets
-import Logo_AE from "../assets/Antares_ED/Logo_AE.png"
-import Rectangle from "../assets/Antares_ED/Rectangle_negro.svg"
-import Servicios_1 from "../assets/Antares_ED/Servicios_01.svg"
-import Servicios_2 from "../assets/Antares_ED/Servicios_02.svg"
-import Servicios_3 from "../assets/Antares_ED/Servicios_03.svg"
-import Servicios_4 from "../assets/Antares_ED/Servicios_04.svg"
-import Servicios_5 from "../assets/Antares_ED/Services_05.svg"
-import Servicios_6 from "../assets/Antares_ED/Servicios_06.svg"
-import Servicios_7 from "../assets/Antares_ED/Servicios_07.svg"
-import Servicios_8 from "../assets/Antares_ED/Servicios_08.svg"
-import Servicios_9 from "../assets/Antares_ED/Servicios_09.svg"
-import Servicios_10 from "../assets/Antares_ED/Servicios_10.svg"
-import Servicios_11 from "../assets/Antares_ED/Servicios_11.svg"
-import Servicios_12 from "../assets/Antares_ED/Servicios_12.svg"
+import Logo_AE from "../../assets/Antares_ED/Logo_AE.png"
+import Rectangle from "../../assets/Antares_ED/Rectangle_negro.svg"
+import Servicios_1 from "../../assets/Antares_ED/Servicios_01.svg"
+import Servicios_2 from "../../assets/Antares_ED/Servicios_02.svg"
+import Servicios_3 from "../../assets/Antares_ED/Servicios_03.svg"
+import Servicios_4 from "../../assets/Antares_ED/Servicios_04.svg"
+import Servicios_5 from "../../assets/Antares_ED/Services_05.svg"
+import Servicios_6 from "../../assets/Antares_ED/Servicios_06.svg"
+import Servicios_7 from "../../assets/Antares_ED/Servicios_07.svg"
+import Servicios_8 from "../../assets/Antares_ED/Servicios_08.svg"
+import Servicios_9 from "../../assets/Antares_ED/Servicios_09.svg"
+import Servicios_10 from "../../assets/Antares_ED/Servicios_10.svg"
+import Servicios_11 from "../../assets/Antares_ED/Servicios_11.svg"
+import Servicios_12 from "../../assets/Antares_ED/Servicios_12.svg"
 
 
-const Antares_ED = () => {
+function Antares_ED (){
     return(
         <>
             <header className="header_AE">
