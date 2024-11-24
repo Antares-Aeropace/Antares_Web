@@ -2,9 +2,9 @@
 import "../styles/pages/Antares_Aerospace.css"
 
 // Components
-import NavBar from "../components/NavBar"
-import Card_AA from "../components/Card_AA"
-import Footer from "../components/Footer"
+import NavBar from "../../components/NavBar"
+import Card_AA from "../../components/Card_AA"
+import Footer from "../../components/Footer"
 
 //Assets
 import Logo from "../assets/Antares_Aerospace/Logo_Antares_Aerospace.svg"
@@ -29,7 +29,7 @@ import Product_8 from "../assets/Antares_Aerospace/productos_AA_8.svg"
 
 
 // Data
-import Objetivos_AA from "../db/Objetivos_AA"
+import Objetivos_AA from "../../db/Objetivos_AA"
 
 const Antares_Aerospace = () => {
     return(

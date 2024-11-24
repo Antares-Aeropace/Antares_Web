@@ -5,9 +5,10 @@ import {
 
 // Pages
 import Home from './pages/home/Home';
-import Antares_ED from './pages/AE/Antares_ED';
-import Nosotros from './pages/Nosotros/Nosotros';
+import Nosotros from './pages/Nosotros/Nosotros'
+import AntaresED from './pages/AED/AntaresED';
 import Antares_Aerospace from './pages/AA/Antares_Aerospace';
+import AntaresTech from './pages/AT/AntaresTech';
 
 function App() {
 
@@ -26,11 +27,11 @@ function App() {
     },
     {
       path: "antares-tech",
-      element: (<h1>Antares Tech</h1>)
+      element: (<AntaresTech />)
     },
     {
       path: "antares-ed",
-      element: <Antares_ED />
+      element: <AntaresED />
     },
     {
       path: "contact",
