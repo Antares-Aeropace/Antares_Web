@@ -1,37 +1,36 @@
 // Styles 
-import "../styles/pages/Antares_Aerospace.css"
-
+import "../AA/Antares_Aerospace.css"
 // Components
 import NavBar from "../../components/NavBar"
 import Card_AA from "../../components/Card_AA"
 import Footer from "../../components/Footer"
 
 //Assets
-import Logo from "../assets/Antares_Aerospace/Logo_Antares_Aerospace.svg"
-import Matriz_Capacidades from "../assets/Antares_Aerospace/Temporal_Capacidades_Aeroespaciales.svg"
-import Genesis_1 from "../assets/Antares_Aerospace/genesis_1.svg"
-import Genesis_2 from "../assets/Antares_Aerospace/genesis_2.svg"
-import Genesis_3 from "../assets/Antares_Aerospace/genesis_3.svg"
-import Genesis_4 from "../assets/Antares_Aerospace/genesis_4.svg"
-import Satelite_1 from "../assets/Antares_Aerospace/satelite_1.svg"
-import Satelite_2 from "../assets/Antares_Aerospace/satelite_2.svg"
-import Satelite_3 from "../assets/Antares_Aerospace/satelite_3.svg"
-import Satelite_4 from "../assets/Antares_Aerospace/satelite_4.svg"
-import Satelite_5 from "../assets/Antares_Aerospace/satelite_5.svg"
-import Product_1 from "../assets/Antares_Aerospace/productos_AA_1.svg"
-import Product_2 from "../assets/Antares_Aerospace/productos_AA_2.svg"
-import Product_3 from "../assets/Antares_Aerospace/productos_AA_3.svg"
-import Product_4 from "../assets/Antares_Aerospace/productos_AA_4.svg"
-import Product_5 from "../assets/Antares_Aerospace/productos_AA_5.svg"
-import Product_6 from "../assets/Antares_Aerospace/productos_AA_6.svg"
-import Product_7 from "../assets/Antares_Aerospace/productos_AA_7.svg"
-import Product_8 from "../assets/Antares_Aerospace/productos_AA_8.svg"
-
+import Logo from "../../assets/AA/Logo_Antares_Aerospace.svg"
+import Matriz_Capacidades from "../../assets/AA/Temporal_Capacidades_Aeroespaciales.svg"
+import Genesis_1 from "../../assets/AA/genesis_1.svg"
+import Genesis_2 from "../../assets/AA/genesis_2.svg"
+import Genesis_3 from "../../assets/AA/genesis_3.svg"
+import Genesis_4 from "../../assets/AA/genesis_4.svg"
+import Satelite_1 from "../../assets/AA/satelite_1.svg"
+import Satelite_2 from "../../assets/AA/satelite_2.svg"
+import Satelite_3 from "../../assets/AA/satelite_3.svg"
+import Satelite_4 from "../../assets/AA/satelite_4.svg"
+import Satelite_5 from "../../assets/AA/satelite_5.svg"
+import Product_1 from "../../assets/AA/productos_AA_1.svg"
+import Product_2 from "../../assets/AA/productos_AA_2.svg"
+import Product_3 from "../../assets/AA/productos_AA_3.svg"
+import Product_4 from "../../assets/AA/productos_AA_4.svg"
+import Product_5 from "../../assets/AA/productos_AA_5.svg"
+import Product_6 from "../../assets/AA/productos_AA_6.svg"
+import Product_7 from "../../assets/AA/productos_AA_7.svg"
+import Product_8 from "../../assets/AA/productos_AA_8.svg"
+import Formulario from "../../components/Formulario"
 
 // Data
 import Objetivos_AA from "../../db/Objetivos_AA"
 
-const Antares_Aerospace = () => {
+const AA = () => {
     return(
         <>
             <header className="header-AA">
@@ -233,8 +232,8 @@ const Antares_Aerospace = () => {
 
             <section>
                 <div className="divisor-bottom-line-AA"></div>
-                <h2 className="title-section-AA">Contáctanos</h2>
-
+                
+                <Formulario />
             </section>
 
 
@@ -246,4 +245,4 @@ const Antares_Aerospace = () => {
         </>
     )
 }
-export default Antares_Aerospace
+export default AA

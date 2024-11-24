@@ -1,10 +1,10 @@
 // Assets
-import Num_1 from "../assets/Antares_Aerospace/1.svg"
-import Num_2 from "../assets/Antares_Aerospace/2.svg"
-import Num_3 from "../assets/Antares_Aerospace/3.svg"
-import Num_4 from "../assets/Antares_Aerospace/4.svg"
-import Num_5 from "../assets/Antares_Aerospace/5.svg"
-import Num_6 from "../assets/Antares_Aerospace/6.svg"
+import Num_1 from "../assets/AA/1.svg"
+import Num_2 from "../assets/AA/2.svg"
+import Num_3 from "../assets/AA/3.svg"
+import Num_4 from "../assets/AA/4.svg"
+import Num_5 from "../assets/AA/5.svg"
+import Num_6 from "../assets/AA/6.svg"
 
 
 const Objetivos_AA = [
