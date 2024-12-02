@@ -23,7 +23,7 @@ import Servicios_11 from "../../assets/AED/Servicios_11.svg"
 import Servicios_12 from "../../assets/AED/Servicios_12.svg"
 
 // Data
-import first_cards from '../../db/first_cards';
+import first_cards from '../../db/first_cards_AE';
 
 
 
