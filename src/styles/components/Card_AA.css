@@ -1,0 +1,25 @@
+
+.content_AA h2 {
+    margin: 3rem auto 2rem auto;
+    max-width: 95%;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: center;
+}
+.container-card-aa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.container-card-aa img {
+    width: auto; /* Mantiene el ancho original de la imagen */
+    height: auto; /* Mantiene el alto original de la imagen */
+    max-width: 70%; /* Se asegura de que no exceda el cuadro */
+    max-height: 100%; /* Se asegura de que no exceda el cuadro */
+    display: block;
+    margin: auto;
+}
