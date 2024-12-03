@@ -1,14 +1,16 @@
 import {
   createBrowserRouter,
   RouterProvider
-} from 'react-router-dom'
+} from 'react-router-dom';
 
 // Pages
 import Home from './pages/home/Home';
-import Nosotros from './pages/Nosotros/Nosotros'
+import Nosotros from './pages/Nosotros/Nosotros';
 import AntaresED from './pages/AED/AntaresED';
 import Antares_Aerospace from './pages/AA/Antares_Aerospace';
 import AntaresTech from './pages/AT/AntaresTech';
+import AntaresAerospace from './pages/AA/AntaresAerospace';
+
 
 function App() {
 
@@ -23,7 +25,7 @@ function App() {
     },
     {
       path: "antares-aerospace",
-      element: <Antares_Aerospace />
+      element: <AntaresAerospace />
     },
     {
       path: "antares-tech",
