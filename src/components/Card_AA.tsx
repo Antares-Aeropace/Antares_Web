@@ -1,7 +1,6 @@
 // Styles
 import "../styles/components/Card_AA.css"
 
-
 type Props = {
     text_card: string,
     img: string, 

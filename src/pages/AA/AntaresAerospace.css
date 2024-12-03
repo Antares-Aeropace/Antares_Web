@@ -1,0 +1,366 @@
+.header-AA {
+    background-image: url("../../assets/AA/Fondo_Superior_AA.svg");
+    background-size: cover;
+    height: 91rem;
+    position: relative;
+
+}
+
+
+.logo-AA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15rem;
+    margin-bottom: 2.7rem;
+}
+
+.title-AA {
+    margin: 0;
+    font-size: 4.5rem;
+    text-align: center;
+} 
+
+.title-section-AA {
+    margin: 0rem;
+    font-size: 3.2rem;
+    text-align: center;
+    max-width: 100%;
+
+} 
+.subtitle-AA {
+    margin-top: 1.8rem;
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+.aerospatial-opt {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    margin: 5rem;
+   
+}
+
+.gradient-AA {
+    background: rgb(11,11,11);
+    background: -moz-linear-gradient(0deg, rgba(11,11,11,1) 0%, rgba(11,11,11,1) 10%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(11,11,11,1) 0%, rgba(11,11,11,1) 10%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(0deg, rgba(11,11,11,1) 0%, rgba(11,11,11,1) 10%, rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0b0b0b",endColorstr="#ffffff",GradientType=1); 
+    position: absolute;
+    z-index: 0;
+    bottom: 0rem;
+    height: 25rem;
+    width: 100%;
+}
+
+
+.objetivos-clave-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, 1fr);  
+    gap: 0rem 6rem; 
+    width: 100%; 
+}
+
+.objetivos-clave {
+    margin-top: 6rem;
+}
+
+.objetivos-clave h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+#subtitle-1 {
+    font-size: 2.3rem;
+    margin: 2.6rem 0;
+}
+
+.genesis-section {
+    align-items: center;
+    margin: 7rem 0;
+}
+
+.genesis-section-data {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8.5rem;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.fotos-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.fotos-column img {
+    margin: 2.1rem 1.4rem 0rem 0rem;
+    width: 80%;
+    width: 28rem;
+}
+
+#div-gen {
+    max-width: 100%;
+    margin-bottom: 1.2rem;
+    height: 1.2rem;
+}
+
+.info-genesis {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-genesis p {
+    margin: 0;
+    text-align: left;
+    font-size: 1.6rem;
+}
+
+
+/* ENCABEZADO ESTRUCTURA */
+.encabezado-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado-section hr {
+    width: 100%;
+}
+
+
+/* IMAGES POSITION */
+
+#img-gen {
+    position: relative;
+    max-width: 30%;
+}
+
+#img-gen-3 {
+    position: absolute;
+    left: 45%;
+    width: 8.5%;
+    height: 100%;
+}
+
+.info-satelites {
+    max-width: 80%;
+}
+
+
+
+#title-sat {
+    text-align: left;
+    margin-bottom: 1rem;
+
+}
+
+#img-sat {
+    top: 209.5rem;
+    left: 18.5rem;
+}
+
+#img-prod-2 {
+    top: 316rem;
+    left: 55rem;
+}
+/* */
+
+#description-gen {
+    color: #A1A1A1;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    font-size: 1.6rem;
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.grid-gen {
+    display: flex;
+    flex-direction: row;
+    
+    font-size: 2rem;
+}
+
+.grid-gen p {
+    width: 50%;
+    text-align: right;
+}
+
+#data-no-movil {
+    width: 50%;
+    text-align: left;
+}
+
+.button-conoce-mas {
+    width: 100%;
+    margin-top: -16px;
+    height: 4.6rem;
+    border-radius: 0.7rem;
+    border: 0;
+    background-color: #911010;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#title-gen {
+    margin-bottom: 2.1rem;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.misiones-sat {
+    display: grid;
+    max-height: 80vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 2rem;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 20rem;
+}
+
+.satelites-column-img {
+    display: flex;
+    flex-direction: row;
+}
+
+#img-sat-2 {
+    width: 80%;
+    width: 35rem;
+}
+
+#img-sat-3 {
+    width: 50%;
+}
+
+.grid-sat {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.grid-sat p {
+    width: 50%;
+    text-align: right;
+}
+
+
+#div-sat-1 {
+    margin-bottom: 1.2rem;
+
+}
+
+/*///////////////////////////.////////////////////////////////*/
+.misiones-sat-2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15rem;
+}
+/*///////////////////////////////////////////////////////////*/
+
+
+#cotiza-mision-epacial {
+    gap: 2.5rem;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-bottom: 8rem;
+}
+
+#cotiza-mision-epacial h2 {
+    font-size: 2.5rem;
+}
+
+#cotiza-sat p {
+    font-size: 1.6rem;
+}
+
+#title-cotiza {
+    margin-bottom: 2.1rem;
+    text-align: left;
+}
+
+#product-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.8rem;
+}
+
+
+#encabezado-product {
+    padding-top: 0rem;
+    
+}
+
+.productos-tech h2{
+    font-size: 2.5rem;
+    
+}
+
+.grid-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 80%;
+    gap: 1rem;
+}
+
+.grid-img img {
+    max-width: 40%;
+}
+
+.div-prod-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div-prod-column img {
+    width: 80%;
+    height: 100%;
+}
+
+.section-prod-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    
+}
+
+.section-prod-7 img {
+    width: 90%; 
+    width: 120rem; 
+}
+
+.productos-tech {
+    width: 69%;
+}
+
+.section-prod-7 img {
+    max-width: 80%;
+}
+.section-prod-7 > .divisor-bottom-line-AA {
+    width: 100%;
+    margin-bottom: 3.2rem;
+}
+
+#dev-soluciones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 3rem 0 0; /*Elimina el margen inferior de la clase padre*/
+    gap: 3.8rem;
+}
+
